@@ -5,3 +5,5 @@ An interactive rating app.
 - HTML
 - CSS
 - JavaScript
+
+Visit website : https://hiro5900.github.io/Interactive-Rating-App/
