@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
+html {
+     font-size: 15px;
+}
+
+/* For Mobile devices */
+
+@media (max-width: 500px) {
+     body {
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Overpass', sans-serif;
+          background-color: hsl(216, 12%, 8%);
+     }
+
+     /* Container ratings main */
+
+     .container-ratings-main {
+          display: flex;
+          flex-direction: column;
+          max-width: 277px;
+          height: 334px;
+          margin: 104px auto;
+          padding: 26px 23px;
+          border-radius: 15px;
+          background-color: hsl(213, 19%, 18%);
+     }
+
+     .star {
+          max-width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          margin: -5px 0 0 0;
+          background-color: hsl(213, 19%, 22%);
+     }
+
+     .container-ratings-main h2 {
+          font-weight: 700;
+          color: hsl(0, 0%, 100%);
+     }
+
+     .container-ratings-main p {
+          color: hsl(217, 12%, 63%);
+          margin: 0px 0 30px 0;
+          line-height: 1.4;
+     }
+
+     .btn-container {
+          display: flex;
+          margin: 6px 0 -6px 0;
+          justify-content: space-between;
+     }
+
+     .btn-rating {
+          width: 44px;
+          height: 44px;
+          border-radius: 22px;
+          background-color: hsl(213, 19%, 23%);
+          color: hsl(217, 12%, 63%);
+          border: none;
+          font-size: 1rem;
+     }
+
+     .btn-rating:hover {
+          background-color: hsl(217, 12%, 63%);
+          color: white;
+     }
+
+     .btn-rating:active {
+          background-color: hsl(217, 12%, 63%);
+          color: white;
+     }
+
+     .btn-submit {
+          height: 46px;
+          margin: 33px 0 0 0;
+          border: none;
+          border-radius: 28px;
+          font-size: 1rem;
+          font-weight: 700;
+          background-color: hsl(25, 97%, 53%);
+          color: white;
+     }
+
+     .btn-submit:hover {
+          background-color: white;
+          color: hsl(25, 97%, 53%);
+     }
+
+     /* Thank you message container */
+     .container-msg {
+          display: none;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          max-width: 277px;
+          min-width: 277px;
+          height: 334px;
+          margin: 104px auto;
+          padding: 26px 23px;
+          border-radius: 15px;
+          background-color: hsl(213, 19%, 18%);
+     }
+
+     .container-msg .user-rating {
+          padding: 0 10px;
+          background-color: hsl(213, 19%, 22%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 25px 0 0 0;
+          height: 33px;
+          width: 165px;
+          border-radius: 20px;
+          color: hsl(25, 97%, 53%);
+     }
+
+     .container-msg h2 {
+          font-weight: 700;
+          color: hsl(0, 0%, 100%);
+          margin: 30px 0 20px 0;
+     }
+
+     .container-msg p {
+          color: hsl(217, 12%, 63%);
+          margin: 0px 0 10px 0;
+          width: 252px;
+          line-height: 1.4;
+          text-align: center;
+     }
+}
+
+
+/* For Desktop/Tablet devices */
+@media (min-width: 501px) {
+     body {
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Overpass', sans-serif;
+          background-color: hsl(216, 12%, 8%);
+     }
+
+     /* Container ratings main */
+
+     .container-ratings-main {
+          display: flex;
+          flex-direction: column;
+          max-width: 290px;
+          height: 334px;
+          margin: 150px auto;
+          padding: 26px 23px;
+          border-radius: 15px;
+          background-color: hsl(213, 19%, 18%);
+     }
+
+     .star {
+          max-width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          margin: -5px 0 0 0;
+          background-color: hsl(213, 19%, 22%);
+     }
+
+     .container-ratings-main h2 {
+          font-weight: 700;
+          color: hsl(0, 0%, 100%);
+     }
+
+     .container-ratings-main p {
+          color: hsl(217, 12%, 63%);
+          margin: 0px 0 30px 0;
+          line-height: 1.4;
+     }
+
+     .btn-container {
+          display: flex;
+          margin: 6px 0 -6px 0;
+          justify-content: space-between;
+     }
+
+     .btn-rating {
+          width: 44px;
+          height: 44px;
+          border-radius: 22px;
+          background-color: hsl(213, 19%, 23%);
+          color: hsl(217, 12%, 63%);
+          border: none;
+          font-size: 1rem;
+     }
+
+     .btn-rating:hover {
+          background-color: hsl(25, 97%, 53%);
+          color: white;
+          cursor: pointer;
+     }
+
+     .btn-rating-active:active{
+          background-color: hsl(217, 12%, 63%);
+          color: white;
+     }
+
+     .btn-submit {
+          height: 40px;
+          margin: 33px 0 0 0;
+          border: none;
+          border-radius: 28px;
+          font-size: 0.9rem;
+          font-weight: 700;
+          background-color: hsl(25, 97%, 53%);
+          color: white;
+          letter-spacing: 2.5px;
+     }
+
+     .btn-submit:hover {
+          background-color: white;
+          color: hsl(25, 97%, 53%);
+          cursor: pointer;
+     }
+
+     /* Thank you message container */
+     .container-msg {
+          display: none;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          max-width: 290px;
+          min-width: 290px;
+          height: 334px;
+          margin: 150px auto;
+          padding: 26px 23px;
+          border-radius: 15px;
+          background-color: hsl(213, 19%, 18%);
+     }
+
+     .container-msg .user-rating {
+          padding: 0 10px;
+          background-color: hsl(213, 19%, 22%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 25px 0 0 0;
+          height: 33px;
+          width: 165px;
+          border-radius: 20px;
+          color: hsl(25, 97%, 53%);
+     }
+
+     .container-msg h2 {
+          font-weight: 700;
+          color: hsl(0, 0%, 100%);
+          margin: 30px 0 10px 0;
+     }
+
+     .container-msg p {
+          color: hsl(217, 12%, 63%);
+          margin: 0px 0 10px 0;
+          width: 252px;
+          line-height: 1.4;
+          text-align: center;
+     }
+}
